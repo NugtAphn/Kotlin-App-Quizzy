@@ -1,6 +1,11 @@
 package com.nugtaphn.quizzy
 
 object Constants {
+
+    const val USER_NAME : String = "user_name"
+    const val TOTAL_QUESTION : String = "total_question"
+    const val CORRECT_QUESTION:String = "correct_answer"
+
     fun getQuestions(): ArrayList<Question>{
         val questionList = ArrayList<Question>()
 

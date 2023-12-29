@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Please DO NOT empty your name",Toast.LENGTH_SHORT).show()
             }else{
                 var intent = Intent(this,QuizActivity::class.java)
+                intent.putExtra(Constants.USER_NAME,etName.text.toString())
                 startActivity(intent)
                 finish()
             }
