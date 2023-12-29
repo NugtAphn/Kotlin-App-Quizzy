@@ -14,16 +14,17 @@
         android:gravity="center">
 
         <TextView
+            android:id="@+id/tv_question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Quizzy!"
             android:layout_margin="10dp"
             android:textSize="24sp"
             android:gravity="center"
             android:textStyle="bold"
-            tools:text="2-1"/>
+            tools:text="This is where the question print"/>
 
         <ImageView
+            android:id="@+id/iv_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -41,6 +42,7 @@
             android:layout_marginRight="20dp">
 
             <ProgressBar
+                android:id="@+id/progressBar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -53,6 +55,7 @@
             </ProgressBar>
 
             <TextView
+                android:id="@+id/tv_progressBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
@@ -63,6 +66,63 @@
             </TextView>
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_optionOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/option_choice"
+            tools:text="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_optionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/option_choice"
+            tools:text="2">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_optionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/option_choice"
+            tools:text="3">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_optionFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/option_choice"
+            tools:text="4">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_margin="16dp"
+            android:textStyle="bold">
+        </Button>
 
     </LinearLayout>
 

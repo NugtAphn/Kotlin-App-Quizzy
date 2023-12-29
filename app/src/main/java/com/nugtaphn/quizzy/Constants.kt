@@ -20,6 +20,30 @@ object Constants {
         )
         questionList.add(questionTwo)
 
+        val questionThree = Question(
+            2,"1*2-1",
+            R.drawable.ic_launcher_foreground,
+            "1","2","3","4",
+            1
+        )
+        questionList.add(questionThree)
+
+        val questionFour = Question(
+            2,"1+2-1",
+            R.drawable.ic_launcher_foreground,
+            "1","2","3","4",
+            2
+        )
+        questionList.add(questionFour)
+
+        val questionFive = Question(
+            2,"1+2+1",
+            R.drawable.ic_launcher_foreground,
+            "1","2","3","4",
+            4
+        )
+        questionList.add(questionFive)
+
         return questionList
     }
 }
